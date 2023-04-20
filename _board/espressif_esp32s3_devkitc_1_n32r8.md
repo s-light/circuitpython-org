@@ -36,7 +36,7 @@ There are three mutually exclusive ways to provide power to the board:
 - **Boot Button**: Download button. Holding down **Boot** and then pressing **Reset** initiates Firmware Download mode for downloading firmware through the serial port.
 - **Reset Button**
 - **USB-to-UART Bridge:** Single USB-to-UART bridge chip provides transfer rates up to 3 Mbps.
-- **RGB LED**: Addressable RGB LED, driven by GPIO48.
+- **RGB LED**: Addressable RGB LED, driven by GPIO48 (or on Hardware revision 1.1 GPIO38).
 - **3.3V Power On LED**: Turns on when the USB power is connected to the board.
 
 ## Purchase
